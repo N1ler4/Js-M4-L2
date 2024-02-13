@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./tailwind.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="border-b-2">
+      <nav>
+        <div class="bg-[#F5F5F5] p-2 mx-auto">
+          <div
+            class="flex justify-between items-center max-w-[1280px] container mx-auto"
+          >
+            <p class="text-[#666666]">Welcome to worldwide Megamart!</p>
+            <div class="flex">
+              <span
+                class="flex items-center mr-3 gap-1 border-r-2 p-1 border-[#D9D9D9] text-[#666666]"
+              >
+                <box-icon name="location-plus" color="#008ecc"></box-icon>
+                Deliver to
+                <p>423651</p>
+              </span>
+              <span
+                class="flex items-center mr-3 gap-1 border-r-2 p-1 border-[#D9D9D9] text-[#666666]"
+              >
+                <box-icon name="truck" type="solid" color="#008ecc"></box-icon>
+                Track your order
+              </span>
+              <span class="flex items-center mr-3 gap-1 text-[#666666]">
+                <box-icon name="category" color="#008ecc"></box-icon>
+                All Offers
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="container mx-auto p-2">
+          <div class="flex justify-between">
+            <h1 class="flex items-center text-[#008ECC] text-[35px] font-bold">
+              <box-icon name="menu-alt-left" color="#008ecc"></box-icon>
+              MegaMart
+            </h1>
+            <div class="flex items-center gap-12">
+              <div
+                class="flex items-center rounded-[12px] bg-[#F3F9FB] w-[507px] justify-between p-3"
+              >
+                <div class="flex">
+                  <box-icon name="search" color="#008ecc"></box-icon>
+                  <input
+                    type="text"
+                    placeholder="Search"
+                    class="bg-[#F3F9FB] pl-4 outline-none"
+                  />
+                </div>
+                <box-icon name="menu" color="#008ecc"></box-icon>
+              </div>
+
+              <a href="#" class="flex items-center">
+                <box-icon name="user" color="#008ecc"></box-icon>
+                <p>Sign up/Sign in</p>
+              </a>
+              <div class="w-[1px] h-[24px] bg-[#D9D9D9]"></div>
+              <a href="#" class="flex items-center">
+                <box-icon name="cart" color="#008ecc"></box-icon>
+                <p>Cart</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container mx-auto cursor-pointer p-2">
+        <ul class="flex justify-evenly">
+          <li
+            class="rounded-[16px] flex px-[14px] p-[9px] text-[14px] bg-[#F3F9FB] items-center hover:bg-[#008ECC] hover:text-white"
+          >
+            Groceries <box-icon name="chevron-down"></box-icon>
+          </li>
+          <li
+            class="rounded-[16px] flex px-[14px] p-[9px] text-[14px] bg-[#F3F9FB] items-center hover:bg-[#008ECC] hover:text-white"
+          >
+            Premium Fruits <box-icon name="chevron-down"></box-icon>
+          </li>
+          <li
+            class="rounded-[16px] flex px-[14px] p-[9px] text-[14px] bg-[#F3F9FB] items-center hover:bg-[#008ECC] hover:text-white"
+          >
+            Groceries <box-icon name="chevron-down"></box-icon>
+          </li>
+          <li
+            class="rounded-[16px] flex px-[14px] p-[9px] text-[14px] bg-[#F3F9FB] items-center hover:bg-[#008ECC] hover:text-white"
+          >
+            Home & Kitchen <box-icon name="chevron-down"></box-icon>
+          </li>
+          <li
+            class="rounded-[16px] flex px-[14px] p-[9px] text-[14px] bg-[#F3F9FB] items-center hover:bg-[#008ECC] hover:text-white"
+          >
+            Fashion <box-icon name="chevron-down"></box-icon>
+          </li>
+          <li
+            class="rounded-[16px] flex px-[14px] p-[9px] text-[14px] bg-[#F3F9FB] items-center hover:bg-[#008ECC] hover:text-white"
+          >
+            Electronics <box-icon name="chevron-down"></box-icon>
+          </li>
+          <li
+            class="rounded-[16px] flex px-[14px] p-[9px] text-[14px] bg-[#F3F9FB] items-center hover:bg-[#008ECC] hover:text-white"
+          >
+            Beauty <box-icon name="chevron-down"></box-icon>
+          </li>
+          <li
+            class="rounded-[16px] flex px-[14px] p-[9px] text-[14px] bg-[#F3F9FB] items-center hover:bg-[#008ECC] hover:text-white"
+          >
+            Home Improvement <box-icon name="chevron-down"></box-icon>
+          </li>
+          <li
+            class="rounded-[16px] flex px-[14px] p-[9px] text-[14px] bg-[#F3F9FB] items-center hover:bg-[#008ECC] hover:text-white"
+          >
+            Sports, Toys & Luggage <box-icon name="chevron-down"></box-icon>
+          </li>
+        </ul>
+      </div>
+      <section class="mx-auto container mr-3 mt-5 p-4">
+        <img src="./images/Rectangle 5.png" alt="" />
+      </section>
+      <section class="mx-auto container">
+        <h1 class="text-[28px] mb-[20px] mt-[20px]">
+          Grab the best deal on <span class="text-[#008ECC]">Smartphones</span>
+        </h1>
+        <div class="container">
+          <div
+            class="swiper-wrapper wrapper max-w-[1280px] overflow-x-auto gap-4"
+          ></div>
+        </div>
+      </section>
+      <section>
+        <div class="container mx-auto">
+          <div class="flex justify-between">
+            <h1 class="mt-[35px] text-[#666666] mb-[56px] text-[24px]">
+              Shop From <span class="text-[#008ECC]">Top Categories</span>
+            </h1>
+            <a class="mt-[35px]" href="#">View All</a>
+          </div>
+          <ul class="flex justify-evenly items-center">
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3 rounded-[59px]"
+              >
+                <img src="./images/image 3 (2).png" alt="" />
+              </div>
+              <p class="text-center">Mobile</p>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3 rounded-[59px]"
+              >
+                <img src="./images/image 3 (3).png" alt="" />
+              </div>
+              <p class="text-center">Cosmetics</p>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3 rounded-[59px]"
+              >
+                <img src="./images/Ellipse 41.svg" alt="" />
+              </div>
+              <p class="text-center">Electronics</p>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3 rounded-[59px]"
+              >
+                <img src="./images/image 4 (1).png" alt="" />
+              </div>
+              <p class="text-center">Furniture</p>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3 rounded-[59px]"
+              >
+                <img src="./images/image 5 (2).png" alt="" />
+              </div>
+              <p class="text-center">Watches</p>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3 rounded-[59px]"
+              >
+                <img src="./images/image 6 (9).png" alt="" />
+              </div>
+              <p class="text-center">Decor</p>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3 rounded-[59px]"
+              >
+                <img src="./images/image 7 (1).png" alt="" />
+              </div>
+              <p class="text-center">Accessories</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="container mx-auto mt-[50px]">
+          <div class="flex justify-between">
+            <h1 class="mt-[35px] text-[#666666] mb-[56px] text-[24px]">
+              Top <span class="text-[#008ECC]"> Electronics Brands</span>
+            </h1>
+            <a class="mt-[35px]" href="#">View All</a>
+          </div>
+          <div class="flex justify-evenly">
+            <img src="./images/Rectangle 14.png" alt="" />
+            <img src="./images/Rectangle 14 (1).png" alt="" />
+            <img src="./images/Rectangle 14 (2).png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container mx-auto">
+          <div class="flex justify-between">
+            <h1 class="mt-[35px] text-[#666666] mb-[56px] text-[24px]">
+              Shop From <span class="text-[#008ECC]">Top Categories</span>
+            </h1>
+            <a class="mt-[35px]" href="#">View All</a>
+          </div>
+          <ul class="flex justify-evenly items-center">
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3"
+              >
+                <img src="./images/41624-7-groceries-hd-download-hd-png 1.png" alt="" />
+              </div>
+              <p class="text-center">Mobile</p>
+              <h1 class="font-bold text-center">UP to 50% OFF</h1>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3"
+              >
+                <img src="./images/54018-9-grocery-free-hq-image 2.png" alt="" />
+              </div>
+              <p class="text-center">Cosmetics</p>
+              <h1 class="font-bold text-center">UP to 50% OFF</h1>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3"
+              >
+                <img src="./images/pngegg 1.png" alt="" />
+              </div>
+              <p class="text-center">Electronics</p>
+              <h1 class="font-bold text-center">UP to 50% OFF</h1>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3"
+              >
+                <img src="./images/23410-4-strawberry-photo 1.png" alt="" />
+              </div>
+              <p class="text-center">Furniture</p>
+              <h1 class="font-bold text-center">UP to 50% OFF</h1>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3"
+              >
+                <img src="./images/22136-3-mango-fruit 1.png" alt="" />
+              </div>
+              <p class="text-center">Watches</p>
+              <h1 class="font-bold text-center">UP to 50% OFF</h1>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3"
+              >
+                <img src="./images/image 6 (9).png" alt="" />
+              </div>
+              <p class="text-center">Decor</p>
+              <h1 class="font-bold text-center">UP to 50% OFF</h1>
+            </li>
+            <li class="w-[132px]">
+              <div
+                class="bg-[#F5F5F5] flex justify-center w-[132px] h-[132px] p-3"
+              >
+                <img src="./images/35763-7-cherry-fruit-file 1.png" alt="" />
+              </div>
+              <p class="text-center">Accessories</p>
+              <h1 class="font-bold text-center">UP to 50% OFF</h1>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class="mt-[120px]  bg-[#008ECC]">
+
+      <div class="container mx-auto flex justify-evenly p-4 text-white">
+
+        <ul class="leading-8">
+          <li><strong>MegaMart</strong></li>
+          <li>Contact Us</li>
+          <li class="flex items-center ">
+            <box-icon name='whatsapp' type='logo' color='#ffffff' ></box-icon>
+            <div>
+              <p>Whats App</p>
+              <a href="tel:+1 202-918-2132">+1 202-918-2132</a>
+            </div>
+          </li>
+          <li class="flex items-center">
+            <box-icon name='phone' color='#ffffff' ></box-icon>
+            <div>
+              <p>Call Us</p>
+              <a href="tel:+1 202-918-2132">+1 202-918-2132</a>
+            </div>
+          </li>
+          <li>Download App</li>
+
+          <li class="flex">
+            <img src="./images/image 11.png" alt="">
+            <img src="./images/image 10 (1).png" alt="">
+          </li>
+
+        </ul>
+        <ul class="leading-8">
+          <li>
+            <strong>Most Popular Categories</strong>
+          </li>
+          <li>Staples</li>
+          <li>Beverages</li>
+          <li>Personal Care</li>
+          <li>Home Care</li>
+          <li>Baby Care</li>
+          <li>Vegetables & Fruits</li>
+          <li>Snacks & Foods</li>
+          <li>Dairy & Bakery</li>
+        </ul>
+        <ul class="leading-8">
+          <li><strong>Customer Services</strong></li>
+          <li>About Us</li>
+          <li>Terms & Conditions</li>
+          <li>FAQ</li>
+          <li>Privacy Policy</li>
+          <li>E-waste Policy</li>
+          <li>Cancellation & Return Policy</li>
+        </ul>
+
+      </div>
+
+    </footer>
+
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="./db.js"></script>
+  <script src="./script.js"></script>
+</html>
